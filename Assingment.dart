@@ -4,7 +4,6 @@ void main() {
   for (int grade in grades) {
     sum += grade;
   }
-  print(sum);
   double average = sum / grades.length;
   int roundedAverage = average.round();
   if(roundedAverage >= 80){
